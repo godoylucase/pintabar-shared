@@ -31,6 +31,8 @@ public enum ErrorCode implements Serializable {
 	PURCHASE_ORDER_ALREADY_CLOSED(CONFLICT, "businessAPI.purchase.order.closed.status"),
 	MENUS_NOT_FOUND(NOT_FOUND, "businessAPI.menues.not.found"),
 	MENU_ITEM_NOT_FOUND(NOT_FOUND, "businessAPI.menu.item.not.found"),
+	MENU_ITEM_INSTANCE_NOT_FOUND(NOT_FOUND, "api.menu.item.instance.not.found"),
+	MENU_INSTANCE_NOT_FOUND(NOT_FOUND, "api.menu.instance.not.found"),
 	INTERNAL_ERROR(INTERNAL_SERVER_ERROR, "API.internal.error"),
 	PARAMETER_ERROR(BAD_REQUEST, "userAPI.wrong.parameters");
 
